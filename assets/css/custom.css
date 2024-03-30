@@ -25,7 +25,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    font-size: xx-large !important;
+    /*font-size: xx-large !important;*/
 }
 header .title{
     font-size: xx-large !important;

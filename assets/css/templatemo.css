@@ -34,10 +34,6 @@ body, ul, li, p, a, label, input, div {
   font-size: 18px !important;
   font-weight: 300 !important;
 }
-.header .title{
-    font-size: xx-large !important;
-    
-}
 .h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 48px !important;
@@ -56,26 +52,26 @@ body, ul, li, p, a, label, input, div {
 .logo { font-weight: 500 !important;}
 .text-warning {  color: #ede861 !important;}
 .text-muted { color: #bcbcbc !important;}
-.text-success { color: #ff0000 !important;}
+.text-success { color: #862222 !important;}
 .text-light { color: #cfd6e1 !important;}
 .bg-dark { background-color: #212934 !important;}
 .bg-light { background-color: #e9eef5 !important;}
 .bg-black { background-color: #1d242d !important;}
-.bg-success { background-color: #ff0000 !important;}
+.bg-success { background-color: #862222 !important;}
 .btn-success {
-  background-color: #ff0000 !important;
-  border-color: #e60000 !important;
+  background-color: #862222 !important;
+  border-color: #ae5656 !important;
 }
 .pagination .page-link:hover {color: #000;}
 .pagination .page-link:hover, .pagination .page-link.active {
-  background-color: #ff4d4d;
+  background-color: #bb6969;
   color: #fff;
 }
 /* Nav */
 #templatemo_nav_top { min-height: 40px;}
-#templatemo_nav_top * { font-size: 1em !important;}
+#templatemo_nav_top * { font-size: .9em !important;}
 #templatemo_main_nav a { color: #212934;}
-#templatemo_main_nav a:hover { color: #ff4d4d;}
+#templatemo_main_nav a:hover { color: #bb6969;}
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
 
 /* Hero Carousel */
@@ -84,14 +80,14 @@ body, ul, li, p, a, label, input, div {
 .templatemo-accordion a { color: #000;}
 .templatemo-accordion a:hover { color: #333d4a;}
 /* Shop */
-.shop-top-menu a:hover { color: #ff4d4d !important;}
+.shop-top-menu a:hover { color: #bb6969 !important;}
 /* Product */
 .product-wap { box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);}
 .product-wap .product-color-dot.color-dot-red { background:#f71515;}
 .product-wap .product-color-dot.color-dot-blue { background:#6db4fe;}
 .product-wap .product-color-dot.color-dot-black { background:#000000;}
 .product-wap .product-color-dot.color-dot-light { background:#e0e0e0;}
-.product-wap .product-color-dot.color-dot-green { background:#ff3333;}
+.product-wap .product-color-dot.color-dot-green { background:#0bff7e;}
 .card.product-wap .card .product-overlay {
   background: rgba(0,0,0,.2);
   visibility: hidden;
@@ -121,11 +117,11 @@ body, ul, li, p, a, label, input, div {
 /* Carousel Hero */
 #template-mo-zay-hero-carousel .carousel-indicators li {
   margin-top: -50px;
-  background-color: #ff0000;
+  background-color: #862222;
 }
 #template-mo-zay-hero-carousel .carousel-control-next i,
 #template-mo-zay-hero-carousel .carousel-control-prev i {
-  color: #ff0000 !important;
+  color: #862222 !important;
   font-size: 2.8em !important;
 }
 /* Carousel Brand */
@@ -136,13 +132,13 @@ body, ul, li, p, a, label, input, div {
 /* Services */
 .services-icon-wap {transition: .3s;}
 .services-icon-wap:hover, .services-icon-wap:hover i {color: #fff;}
-.services-icon-wap:hover {background: #ff4d4d;}
+.services-icon-wap:hover {background: #bb6969;}
 /* Contact map */
 .leaflet-control a, .leaflet-control { font-size: 10px !important;}
 .form-control { border: 1px solid #e8e8e8;}
 /* Footer */
 #tempaltemo_footer a { color: #dcdde1;}
-#tempaltemo_footer a:hover { color: #df0209;}
+#tempaltemo_footer a:hover { color: #bb6868;}
 #tempaltemo_footer ul.footer-link-list li { padding-top: 10px;}
 #tempaltemo_footer ul.footer-icons li {
   width: 2.6em;
@@ -176,12 +172,13 @@ body, ul, li, p, a, label, input, div {
 }
 
 /*// Medium devices (tablets, 768px and up)*/
-/*@media (min-width: 768px) {
- #templatemo_main_nav .navbar-nav {max-width: 450px;}
- }*/
+@media (min-width: 768px) {
+  #templatemo_main_nav .navbar-nav {max-width: 450px;}
+ }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+  #templatemo_main_nav .navbar-nav {max-width: 550px;}
   #template-mo-zay-hero-carousel .carousel-item {min-height: 30rem !important;}
   .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {font-size: 18px !important;}
   .product-wap .product-color-dot {
